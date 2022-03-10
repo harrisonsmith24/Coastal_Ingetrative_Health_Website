@@ -1,0 +1,202 @@
+@charset "utf-8";
+
+h1, h2{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	width: 100%;
+	text-align: center;
+	color: #3399cc
+}
+
+.servPics{
+	width: 100%;
+	height: auto;
+	margin: 40px auto;
+}
+
+.picRow {
+	width: 66%;
+	margin: auto;
+	height: auto;	
+}
+
+.picRow::after{
+	clear: both;
+	content: "";
+	display: table;
+}
+
+.picContainer{
+	position: relative;
+	display: block;
+	float: left;
+	width: 48%;
+	height: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 1%;
+	text-align: center;	
+}
+
+.picContainer > img{
+	display: block;
+	width: 100%;
+	height: 200px;
+	border: 2px solid #3399cc;
+}
+
+/* Mouse Over */
+
+.select {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100.5%;
+  opacity: 0;
+  background-color: rgba(51, 153, 204, .8);
+  transition: .5s ease; 
+}
+
+.picContainer:hover .select{
+	opacity: 1;
+}
+
+.serviceTitle {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* On Click */
+
+#laserDescription {
+	display: none;
+	width: 50%;
+	margin: 20px auto;
+	padding-left: 45px;
+	padding-right: 45px;
+	padding-top: 5px;
+	padding-bottom: 40px;
+	border-top: 2px solid #3399cc;
+	border-bottom: 2px solid #3399cc;	
+}
+
+#laserDescription p {
+    color: #3399cc;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 1.66em;
+}
+
+#chiroDescription {
+	display: none;
+	width: 50%;
+	margin: 20px auto;
+	padding-left: 45px;
+	padding-right: 45px;
+	padding-top: 5px;
+	padding-bottom: 40px;
+	border-top: 2px solid #3399cc;
+	border-bottom: 2px solid #3399cc;	
+}
+
+#chiroDescription p {
+    color: #3399cc;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 1.66em;
+}
+
+#physicalDescription {
+	display: none;
+	width: 50%;
+	margin: 20px auto;
+	padding-left: 45px;
+	padding-right: 45px;
+	padding-top: 5px;
+	padding-bottom: 40px;
+	border-top: 2px solid #3399cc;
+	border-bottom: 2px solid #3399cc;	
+}
+
+#physicalDescription p {
+    color: #3399cc;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 1.66em;
+}
+
+#massageDescription {
+	display: none;
+	width: 50%;
+	margin: 20px auto;
+	padding-left: 45px;
+	padding-right: 45px;
+	padding-top: 5px;
+	padding-bottom: 40px;
+	border-top: 2px solid #3399cc;
+	border-bottom: 2px solid #3399cc;	
+}
+
+#massageDescription p {
+    color: #3399cc;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 1.66em;
+}
+
+#golfDescription {
+	display: none;
+	width: 50%;
+	margin: 20px auto;
+	padding-left: 45px;
+	padding-right: 45px;
+	padding-top: 5px;
+	padding-bottom: 40px;
+	border-top: 2px solid #3399cc;
+	border-bottom: 2px solid #3399cc;	
+}
+
+#golfDescription p , ul {
+    color: #3399cc;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 1.66em;
+}
+
+#spineDescription {
+	display: none;
+	width: 50%;
+	margin: 20px auto;
+	padding-left: 45px;
+	padding-right: 45px;
+	padding-top: 5px;
+	padding-bottom: 40px;
+	border-top: 2px solid #3399cc;
+	border-bottom: 2px solid #3399cc;	
+}
+
+#spineDescription p {
+    color: #3399cc;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 1.66em;
+}
+
+
+
+
+	

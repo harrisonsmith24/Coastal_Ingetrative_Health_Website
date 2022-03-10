@@ -1,0 +1,197 @@
+@charset "utf-8";
+
+/* Home Image Design */
+
+.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1500px;
+	min-width:570px;
+	min-height:460px;
+	padding-bottom: 30px;
+}
+
+
+h1{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	width: 100%;
+	text-align: center;
+	color: #3399cc
+}
+
+.textContainer{
+	width: 60%;
+	margin: 0 auto;
+	
+}
+
+.text{
+	margin: auto;
+	width: 80%;
+	padding-left: 100px;
+	padding-right: 100px;
+	border-top: solid 2px #3399cc; 
+	border-bottom: solid 2px #3399cc;
+}
+
+.text p{
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	text-align: center;
+	line-height: 2.2;
+	font-size: 1.1em;
+	font-weight: bold;
+	padding-bottom: 30px;
+}
+
+
+
+p {
+	color: #3399cc;
+}
+
+/* Icons */
+.picture_icons{
+	width: 66.66%;
+	margin: auto;
+	
+}
+
+.mobileIcons{
+	display: none;
+}
+
+.defaultTable{
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.icon{
+	height: 100px;
+	width: 100px;
+	-webkit-transition: -webkit-transform 1s;
+}
+
+.icon:hover{
+	-webkit-transform: rotate(360deg) translateZ(0);
+}
+
+.tableIconRow{
+	margin: 20px;
+	padding: 20px 20px;
+	color: #3399cc;	
+	text-align: center;
+}
+
+/* Testimonies */
+
+
+.comments{
+	background-color: #F0F0F0;
+}
+
+.commentsHeading{
+	font-style: italic;
+}
+
+p[class^="comment"]{
+	text-align: center;
+	padding-bottom: 40px;
+	font-style: italic;
+	font-size: 1.1em;
+	
+}
+ 
+.name{
+	padding-left: 30px;	
+}
+
+/* Moblie Styles 0px to 480px*/
+
+@media only screen and (max-width:769px) {
+	
+	.center{
+		display: none;
+		margin-left: auto;
+		margin-right: auto;
+		width:100%;
+		height:auto;
+		padding-bottom: 30px;
+	}
+	
+	.textContainer{
+		width: 100%;
+	}
+	
+	.text{
+		margin: auto;
+		width: 90%;
+		padding-left: 5%;
+		padding-right: 5%;
+		border: none;
+	}
+
+	.text p{
+		margin-left: auto;
+		margin-right: auto;
+		width: 90%;
+		text-align: center;
+		line-height: 2.2;
+		font-size: 1em;
+		font-weight: bold;
+		padding-bottom: 30px;
+	}
+	
+	.picture_icons{
+		display: none;
+	}
+	
+	.mobileIcons{
+		display: block;
+		width: 100%;
+		margin: auto;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	
+	.mobile-table{
+		width: 100%;
+	}
+	
+	.mobile-table-cell{
+		width: 50%;
+		vertical-align: middle;
+		text-align: center;
+		padding: 5%;
+	}
+	
+	#cell-top-right {
+		border-left: 2px solid #3399cc;
+		border-bottom: 2px solid #3399cc;
+	}
+	
+	#cell-top-left{
+		border-right: 2px solid #3399cc;
+		border-bottom: 2px solid #3399cc;
+	}
+	
+	#cell-bottom-left{
+		border-top: 2px solid #3399cc;
+		border-right: 2px solid #3399cc;
+	}
+	
+	#cell-bottom-right{
+		border-top: 2px solid #3399cc;
+		border-left: 2px solid #3399cc;
+	}
+}
+
+

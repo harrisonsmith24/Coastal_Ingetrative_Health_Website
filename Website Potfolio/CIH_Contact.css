@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+h1, h2, h3{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	width: 100%;
+	text-align: center;
+	color: #3399cc
+}
+
+h3 {
+	font-size: 25px;
+}
+
+.companyInfo{
+	color: #3399cc;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	letter-spacing: .05em;
+	line-height: 1.5em;
+}
+
+.container{
+	display: block;
+	width: 100%;
+}
+
+.contactForm{
+	width: 66%;
+	margin: 25px auto;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.formRow{
+	width: 50%;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #3399cc;
+	font-size: 18px;
+	color: black;
+	margin-top: 20px;
+	margin-bottom: 16px;
+	margin-left: 25%;
+	margin-right: 25%;
+	text-align: left;
+}
+
+.btnSubmit{
+	width: 100px;
+	height: 70px;
+	margin-left: 47%;
+	margin-right:47%;
+	margin-top: 60px;
+	margin-bottom: 70px;
+	background-color: #3399cc;
+	color: white;
+	border: none;
+	font-size: 15px;
+	font-weight: bold;	
+}
+
+input{
+	height: 45px;
+}
+
+textarea{
+	font-family: inherit;
+	height: 100px;
+}
+
+#custInfo {
+	border: none;
+}
+
+legend {
+	font-size: 20px;
+	color: #3399cc;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
